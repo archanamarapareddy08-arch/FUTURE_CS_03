@@ -14,8 +14,9 @@ This project delivers a comprehensive **API Security Risk Analysis Report** eval
 ## 📋 Evaluated Security Scenarios
 
 ### 1. Authentication Control
-* **Action:** Appended an explicit `x-api-key` validation header token into the request environment.
-* **Result:** **Passed.** Safely shifted from a `401 Unauthorized` boundary rejection to a clean `200 OK` JSON profile delivery string, proving secure access barrier mapping.
+* **Baseline Test:** Request sent without token headers resulted in access denial (`401 Unauthorized`).
+* **Remediation Action:** Appended an explicit `x-api-key` validation header token into the request environment.
+* **Result:** **Passed.** Safely shifted to a clean `200 OK` JSON profile delivery string, proving secure access barrier mapping.
 
 ### 2. Rate Limiting Thresholds
 * **Action:** Executed rapid-fire request sequences back-to-back to simulate automated endpoint flooding.
@@ -27,6 +28,7 @@ This project delivers a comprehensive **API Security Risk Analysis Report** eval
 All verified assessment outcomes and visual configuration logs have been successfully committed above:
 
 * 📄 **Detailed Security Analysis Document:** [`FUTURE_CS_03_API_Security_Report.pdf`](./FUTURE_CS_03_API_Security_Report.pdf)
-* 📸 **Authentication Verification Log:** [`Test_Success_Output.1.png`](./Test_Success_Output.1.png)
+* 📸 **Baseline Authentication Lock Screen:** [`Test_Authentication_Enforced.png`](./Test_Authentication_Enforced.png)
+* 📸 **Successful Key Authorization Log:** [`Test_Success_Output.1.png`](./Test_Success_Output.1.png)
 * 📸 **Rate Limiting Observation Log:** [`Test_Rate_Limiting.png`](./Test_Rate_Limiting.png)
 *
