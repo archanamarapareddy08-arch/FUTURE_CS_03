@@ -28,7 +28,7 @@ This project delivers a comprehensive **API Security Risk Analysis Report** eval
 All verified assessment outcomes and visual configuration logs have been successfully committed above:
 
 * 📄 **Detailed Security Analysis Document:** [`FUTURE_CS_03_API_Security_Report.pdf`](./FUTURE_CS_03_API_Security_Report.pdf)
-* 📸 **Baseline Authentication Lock Screen:** [`Test_Authentication_Enforced.png`](./Test_Authentication_Enforced.png)
+* 📸 **Baseline Authentication Lock Screen:** [`Test1_Authentication_Enforced.png`](./Test_Authentication_Enforced.png)
 * 📸 **Successful Key Authorization Log:** [`Test_Success_Output.1.png`](./Test_Success_Output.1.png)
 * 📸 **Rate Limiting Observation Log:** [`Test_Rate_Limiting.png`](./Test_Rate_Limiting.png)
 *
